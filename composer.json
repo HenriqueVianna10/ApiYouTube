@@ -1,0 +1,17 @@
+{
+    "name": "api/youtube",
+    "description": "Projeto site de jogadores",
+    "authors": [
+        {
+            "name": "Henrique Vianna",
+            "email": "henriquev79@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "App/"
+        }
+    }
+    
+}

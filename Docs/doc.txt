@@ -1,0 +1,21 @@
+=====================Campos
+id = cpf da aplicação, identificador
+titulo = nome do jogador
+descricao =  desrição do jogador
+videoid = video do jogador
+
+=====================Validações
+
+id = numero && > 0
+titulo = > 33 && <= 100
+descricao =  >=10 && <= 250
+videoid = != "" && <= 15
+
+=====ENDPOINT
+
+GET = /game | retorna todos
+GET= /game/:id | retorna o game pelo id
+POST = /game | criar um novo game
+PUT = /game/:id | altera um game
+DELETE = /game/:id | deleta um game
+
